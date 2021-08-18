@@ -25,7 +25,7 @@ let intervalSwitcher = null;
 startBtn.addEventListener("click", () => {
   intervalSwitcher = setInterval(() => {
     colorSwitcher();
-  }, 1000);
+  }, 500);
 });
 
 stopBtn.addEventListener("click", () => {
